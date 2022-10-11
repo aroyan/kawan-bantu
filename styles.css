@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+.hero {
+  background: linear-gradient(
+    97.05deg,
+    #faeeff 14.28%,
+    rgba(197, 241, 231, 0.38) 100.32%
+  );
+}
+
+.hero-container {
+  margin: 0 80px;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 3.5em;
+}
+
+.navbar-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  margin-left: 205px;
+  font-size: 1.125em;
+  font-weight: 500;
+}
+
+.hero-elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 4em;
+}
+
+.hero-heading {
+  font-size: 3em;
+  font-weight: 700;
+  color: #1b1b1b;
+}
+
+.hero-image {
+  max-width: 540px;
+}
+
+.hero-description {
+  max-width: 590px;
+  font-size: 1.5em;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: justify;
+  color: #6d7d8b;
+}
+
+.button {
+  border: none;
+  padding: 1em 1.5em;
+  border-radius: 0.5em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: #38aa90;
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: #30967e;
+}
+
+.tahukah-container {
+  text-align: center;
+  margin-bottom: 154px;
+}
+
+.tahukah-heading {
+  font-size: 48px;
+  line-height: 150%;
+  font-weight: 700;
+  margin-top: 70px;
+}
+
+.tahukah-description {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.graph-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.graph-description {
+  max-width: 442px;
+  font-size: 40px;
+}
+
+.graph-image {
+  max-width: 432px;
+}
+
+.text-purple {
+  color: #9b4aba;
+}
+
+.percentage-info {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.features-heading {
+  color: #07335e;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  margin-bottom: 68px;
+}
+
+.card-container {
+  width: 280px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 280px;
+  height: 280px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: white;
+}
+
+.card-description {
+  color: #07335e;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 20px;
+  text-align: center;
+}
+
+.inner-card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 280px;
+  height: 280px;
+  border-radius: 8px;
+}
+
+.features-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+footer {
+  background: #181d29;
+  color: white;
+  padding-bottom: 25px;
+  margin-top: 100px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 55px;
+}
+
+.footer-item {
+  max-width: 250px;
+}
+
+@media screen and (max-width: 540px) {
+  .hero-container {
+    margin: 0 1em;
+  }
+
+  .hero-heading {
+    font-size: 36px;
+  }
+
+  .hero-image {
+    width: 300px;
+  }
+
+  .graph-image {
+    width: 300px;
+  }
+}
